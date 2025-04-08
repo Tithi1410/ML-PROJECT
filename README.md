@@ -4,6 +4,11 @@
 This project aims to recommend the most suitable **crop to grow** based on various soil and climatic conditions. A **Random Forest Classifier** was trained on a dataset from **Kaggle**, analyzing features like Nitrogen, Phosphorous, Potassium, pH, rainfall, temperature, and humidity to predict the ideal crop out of 22 options.
 
 ---
+## Live Demo
+
+Check out the deployed Streamlit app here:  
+[Crop Recommendation Web App](https://ml-project-adx6m3gvebhxdppe8umxwg.streamlit.app/)
+
 
 ### 🔹 Problem Type: Multi-class Classification  
 ### 🔹 Algorithm: Random Forest (Supervised ML)  
