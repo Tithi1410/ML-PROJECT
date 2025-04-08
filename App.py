@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 
-with open('crop_model.pkl','rb')as model_file:
+with open('models/crop_model.pkl','rb')as model_file:
     rf = pickle.load(model_file)
 
 with open('scaler (2).pkl','rb')as scaler_file:
