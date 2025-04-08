@@ -6,7 +6,7 @@ import pickle
 with open('models/crop_model.pkl','rb')as model_file:
     rf = pickle.load(model_file)
 
-with open('scaler (2).pkl','rb')as scaler_file:
+with open('models/scaler (2).pkl','rb')as scaler_file:
     scaler = pickle.load(scaler_file)
 
 reverse_crop_dict = {
